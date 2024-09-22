@@ -1,0 +1,5 @@
+\pset pager off
+\x auto
+\set COMP_KEYWORD_CASE preserve-lower
+\pset null '(null)'
+\setenv PSQL_EDITOR "/usr/bin/vi"
