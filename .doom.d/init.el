@@ -197,3 +197,8 @@
        :config
        ;;literate
        (default +bindings +smartparens))
+
+;; Enable mouse support in Terminal Emacs 
+;; https://emacsredux.com/blog/2022/06/03/enable-mouse-support-in-terminal-emacs/
+(unless (display-graphic-p)
+  (xterm-mouse-mode 1))
