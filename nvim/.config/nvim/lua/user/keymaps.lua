@@ -27,3 +27,6 @@ keymap("n", "<CR>", ":noh<CR><CR>", opts)
 -- Save with sudo
 keymap("c", "w!!", "%!sudo tee > /dev/null %", { desc = 'Save file as sudo' })
 
+-- Markdown rendering toggle
+keymap("n", "<leader>mr", "<cmd>RenderMarkdown toggle<CR>", { desc = "Toggle markdown rendering" })
+

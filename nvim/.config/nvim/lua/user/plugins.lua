@@ -98,6 +98,36 @@ return require("lazy").setup({
     end,
   },
 
+  -- Markdown rendering: render-markdown.nvim
+  {
+    "MeanderingProgrammer/render-markdown.nvim",
+    opts = {
+      heading = {
+        enabled = true,
+        sign = true,
+        icons = { '󰲡 ', '󰲣 ', '󰲥 ', '󰲧 ', '󰲩 ', '󰲫 ' },
+      },
+      code = {
+        enabled = true,
+        style = 'full',
+        width = 'full',
+        left_pad = 0,
+        right_pad = 0,
+      },
+      bullet = {
+        enabled = true,
+        icons = { '●', '○', '◆', '◇' },
+      },
+      checkbox = {
+        enabled = true,
+        unchecked = { icon = '☐ ' },
+        checked = { icon = '☑ ' },
+      },
+    },
+    ft = 'markdown',
+    dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' },
+  },
+
   -- Classic plugins
   { "tpope/vim-surround" },
   { "preservim/nerdtree" },
