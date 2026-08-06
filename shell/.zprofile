@@ -26,3 +26,5 @@ export NVM_DIR="$HOME/.nvm"
 # Enable 'code' from Terminal
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+
+

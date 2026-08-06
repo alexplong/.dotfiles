@@ -43,3 +43,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias tm='task-master'
 alias taskmaster='task-master'
 
+
+# API Keys for Pi Agent
+export CHUTES_API_KEY="***REMOVED-EXPOSED-SECRET***"
