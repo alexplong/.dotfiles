@@ -44,5 +44,5 @@ alias tm='task-master'
 alias taskmaster='task-master'
 
 
-# API Keys for Pi Agent
-export CHUTES_API_KEY="***REMOVED-EXPOSED-SECRET***"
+# Local secrets/API keys (not tracked in git — lives outside the repo)
+[ -f "$HOME/.zshrc.local" ] && source "$HOME/.zshrc.local"

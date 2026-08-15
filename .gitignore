@@ -30,6 +30,8 @@ node_modules/
 # Local env files
 .env.local
 .env.*.local
+.zshrc.local
+*.local
 
 # Personal secrets
 *secret*
